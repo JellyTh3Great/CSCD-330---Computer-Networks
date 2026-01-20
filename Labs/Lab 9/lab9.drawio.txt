@@ -1,0 +1,24 @@
+<mxfile host="app.diagrams.net" modified="2025-12-06T00:00:00.000Z" agent="5.0 (Windows)" version="20.5.3">
+  <diagram id="Lab9Topology" name="Lab9 Topology">
+    <mxGraphModel dx="1800" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- U1 -->
+        <mxCell id="U1" value="U1&#xa;enp0s8: 192.168.56.11/24&#xa;enp0s3: 10.0.2.x (DHCP)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="200" height="120" as="geometry"/>
+        </mxCell>
+
+        <!-- U2 -->
+        <mxCell id="U2" value="U2&#xa;enp0s8: 192.168.57.11/24&#xa;enp0s3: 10.0.2.x (DHCP)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="80" y="350" width="200" height="120" as="geometry"/>
+        </mxCell>
+
+        <!-- R1 -->
+        <mxCell id="R1" value="R1 (Router)&#xa;enp0s3: 10.0.2.x&#xa;enp0s8: 192.168.56.2/24&#xa;enp0s9: 192.168.57.2/24&#xa;enp0s10: 192.168.189.1/24" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="380" y="220" width="240" height="160" as="geometry"/>
+        </mxCell>
+
+        <!-- R2 -->
+        <mxCell id="R2" value="R2 (Router)&#xa;enp0s3: 10.0.2.x&#xa;enp0s8: 192.168.189.2/24&#xa;enp0s9: 192.168.112.2/24" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent
